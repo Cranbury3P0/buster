@@ -53,7 +53,7 @@ export default async function ArchivePage() {
               className="archive-count"
               style={{
                 fontFamily: 'var(--font-body)',
-                fontSize: '0.9rem',
+                fontSize: '1.025rem',
                 fontWeight: 300,
                 color: 'var(--dim)',
                 margin: 0,
