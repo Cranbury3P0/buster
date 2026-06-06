@@ -52,7 +52,7 @@ export default function LandingPage() {
                 lineHeight: 1.4,
               }}
             >
-              A man with no future reclaiming his past through art and violence.
+              The story of a man with no future reclaiming his past through art and violence.
             </p>
           </div>
         </div>
