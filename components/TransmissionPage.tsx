@@ -38,7 +38,7 @@ export default function TransmissionPage({ post, prev, next }: Props) {
         <span
           style={{
             fontFamily: 'var(--font-body)',
-            fontSize: '0.875rem',
+            fontSize: '0.95rem',
             color: 'var(--dim)',
           }}
         >
@@ -48,7 +48,7 @@ export default function TransmissionPage({ post, prev, next }: Props) {
         <span
           style={{
             fontFamily: 'var(--font-body)',
-            fontSize: '0.875rem',
+            fontSize: '0.95rem',
             color: 'var(--dim)',
           }}
         >
@@ -112,7 +112,7 @@ export default function TransmissionPage({ post, prev, next }: Props) {
           paddingTop: '1.75rem',
           borderTop: '1px solid var(--border)',
           fontFamily: 'var(--font-body)',
-          fontSize: '0.875rem',
+          fontSize: '0.95rem',
           lineHeight: 1.8,
           color: 'var(--dim)',
         }}

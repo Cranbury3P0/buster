@@ -32,7 +32,7 @@ export default async function ArchivePage({ searchParams }: Props) {
               style={{
                 fontFamily: 'var(--font-body)',
                 fontSize: '0.9rem',
-                fontWeight: 300,
+                fontWeight: 400,
                 color: 'var(--text)',
                 margin: 0,
                 lineHeight: 1.3,
@@ -61,7 +61,7 @@ export default async function ArchivePage({ searchParams }: Props) {
               style={{
                 fontFamily: 'var(--font-body)',
                 fontSize: '1.025rem',
-                fontWeight: 300,
+                fontWeight: 400,
                 color: 'var(--dim)',
                 margin: 0,
                 lineHeight: 1,

@@ -63,7 +63,7 @@ export default function TransmissionCard({ post }: Props) {
           <p
             style={{
               fontFamily: 'var(--font-body)',
-              fontSize: '0.925rem',
+              fontSize: '1rem',
               fontWeight: 400,
               lineHeight: 1.8,
               color: 'var(--text)',
@@ -77,7 +77,7 @@ export default function TransmissionCard({ post }: Props) {
           <div
             style={{
               fontFamily: 'var(--font-body)',
-              fontSize: '0.8rem',
+              fontSize: '0.875rem',
               lineHeight: 1.7,
               color: 'var(--dim)',
             }}

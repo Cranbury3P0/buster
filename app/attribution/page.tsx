@@ -44,7 +44,7 @@ export default function AttributionPage() {
           style={{
             fontFamily: 'var(--font-body)',
             fontSize: '0.9rem',
-            fontWeight: 300,
+            fontWeight: 400,
             lineHeight: 1.75,
             color: 'var(--secondary)',
             display: 'flex',

@@ -24,10 +24,10 @@ export default function PostNavigation({ prev, next }: Props) {
             href={`/buster/archive/${prev.id}`}
             style={{ display: 'flex', flexDirection: 'column', gap: '0.2rem', textDecoration: 'none', color: 'inherit' }}
           >
-            <span style={{ fontFamily: 'var(--font-body)', fontSize: '0.8rem', color: 'var(--dim)' }}>
+            <span style={{ fontFamily: 'var(--font-body)', fontSize: '0.95rem', color: 'var(--dim)' }}>
               ← Earlier
             </span>
-            <span style={{ fontFamily: 'var(--font-body)', fontSize: '0.875rem', color: 'var(--secondary)' }}>
+            <span style={{ fontFamily: 'var(--font-body)', fontSize: '0.95rem', color: 'var(--secondary)' }}>
               {prev.postNumber}
             </span>
           </Link>
@@ -36,7 +36,7 @@ export default function PostNavigation({ prev, next }: Props) {
 
       <Link
         href="/buster/archive"
-        style={{ fontFamily: 'var(--font-body)', fontSize: '0.875rem', color: 'var(--dim)', textDecoration: 'none' }}
+        style={{ fontFamily: 'var(--font-body)', fontSize: '0.95rem', color: 'var(--dim)', textDecoration: 'none' }}
       >
         Archive
       </Link>
@@ -47,10 +47,10 @@ export default function PostNavigation({ prev, next }: Props) {
             href={`/buster/archive/${next.id}`}
             style={{ display: 'flex', flexDirection: 'column', gap: '0.2rem', alignItems: 'flex-end', textDecoration: 'none', color: 'inherit' }}
           >
-            <span style={{ fontFamily: 'var(--font-body)', fontSize: '0.8rem', color: 'var(--dim)' }}>
+            <span style={{ fontFamily: 'var(--font-body)', fontSize: '0.95rem', color: 'var(--dim)' }}>
               Later →
             </span>
-            <span style={{ fontFamily: 'var(--font-body)', fontSize: '0.875rem', color: 'var(--secondary)' }}>
+            <span style={{ fontFamily: 'var(--font-body)', fontSize: '0.95rem', color: 'var(--secondary)' }}>
               {next.postNumber}
             </span>
           </Link>

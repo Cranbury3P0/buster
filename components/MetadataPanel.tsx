@@ -24,10 +24,10 @@ const Row = ({ label, value }: { label: string; value: React.ReactNode }) => (
       borderBottom: '1px solid var(--border)',
     }}
   >
-    <span style={{ fontFamily: 'var(--font-body)', fontSize: '0.52rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--dim)', paddingTop: '0.1rem' }}>
+    <span style={{ fontFamily: 'var(--font-body)', fontSize: '0.65rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--dim)', paddingTop: '0.1rem' }}>
       {label}
     </span>
-    <span style={{ fontFamily: 'var(--font-body)', fontSize: '0.62rem', color: 'var(--secondary)', wordBreak: 'break-word', lineHeight: 1.5 }}>
+    <span style={{ fontFamily: 'var(--font-body)', fontSize: '0.8rem', color: 'var(--secondary)', wordBreak: 'break-word', lineHeight: 1.5 }}>
       {value}
     </span>
   </div>
