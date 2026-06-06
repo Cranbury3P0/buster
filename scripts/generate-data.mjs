@@ -51,10 +51,9 @@ for (let i = 1; i <= POST_COUNT; i++) {
   })
 }
 
-// Reverse: oldest first (post 148 → post 001), so post 001 is at position 148
-posts.reverse()
+// Newest first: post 001 (most recent) at top, post 148 (oldest) at bottom
 
 mkdirSync(OUT_DIR, { recursive: true })
 const outPath = join(OUT_DIR, 'posts.json')
 writeFileSync(outPath, JSON.stringify(posts, null, 2))
-console.log(`Generated ${posts.length} posts (oldest first) → ${outPath}`)
+console.log(`Generated ${posts.length} posts (newest first) → ${outPath}`)
