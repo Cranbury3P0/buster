@@ -142,10 +142,10 @@ export default function LandingPage() {
               I understand that the area that I am about to enter is a work of fiction.
             </p>
             <p style={{ margin: 0 }}>
-              It is a story of a man with no future reclaiming his past through art and violence. It is set in a city that is parallel in time to the one that you are living in now but the rhythm is slightly off. It&rsquo;s out of sequence, blurring, tipping off the edge of the coffee table.
+              It is a story of a man with no future reclaiming his past through art and violence. It is set in a city that is parallel in time to the one that I am living in now but the rhythm is slightly off. It&rsquo;s out of sequence, blurring, tipping off the edge of the coffee table.
             </p>
             <p style={{ margin: 0 }}>
-              The city is illuminated by the light that you remember it by. Too bright for comfort in the morning; too sallow in the afternoon.
+              The city is illuminated by the light that I remember it by. Too bright for comfort in the morning; too sallow in the afternoon.
             </p>
             <p style={{ margin: 0 }}>
               It&rsquo;s a city where people crawl all over each other to live.
