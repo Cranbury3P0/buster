@@ -60,7 +60,7 @@ export default async function ArchivePage() {
                 lineHeight: 1,
               }}
             >
-              {posts.length} Transmissions
+              A man with no future reclaims his past through art and violence.
             </p>
           </div>
 
