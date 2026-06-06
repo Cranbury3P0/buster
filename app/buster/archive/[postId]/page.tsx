@@ -1,5 +1,4 @@
-import { notFound, redirect } from 'next/navigation'
-import { isAuthenticated } from '@/lib/auth'
+import { notFound } from 'next/navigation'
 import { getPost, getAdjacentPosts, posts } from '@/lib/posts'
 import TransmissionPage from '@/components/TransmissionPage'
 import type { Metadata } from 'next'
@@ -24,11 +23,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function PostPage({ params }: Props) {
-  const authed = await isAuthenticated()
-  if (!authed) {
-    redirect('/buster')
-  }
-
   const { postId } = await params
   const post = getPost(postId)
   if (!post) notFound()

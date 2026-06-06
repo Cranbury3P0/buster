@@ -1,12 +1,7 @@
-import { isAuthenticated } from '@/lib/auth'
-import { redirect } from 'next/navigation'
 import { posts } from '@/lib/posts'
 import ArchiveGrid from '@/components/ArchiveGrid'
-import { logout } from '@/app/actions/auth'
 
 export default async function ArchivePage() {
-  const authed = await isAuthenticated()
-  if (!authed) redirect('/buster')
 
   return (
     <div style={{ background: 'var(--bg)', minHeight: '100vh' }}>
@@ -25,26 +20,6 @@ export default async function ArchivePage() {
           }
         `}</style>
         <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
-
-          {/* Close session — desktop only */}
-          <div className="archive-close" style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: '1.5rem' }}>
-            <form action={logout}>
-              <button
-                type="submit"
-                style={{
-                  background: 'none',
-                  border: 'none',
-                  color: 'var(--faint)',
-                  padding: 0,
-                  fontFamily: 'var(--font-body)',
-                  fontSize: '0.875rem',
-                  cursor: 'pointer',
-                }}
-              >
-                Close session
-              </button>
-            </form>
-          </div>
 
           {/* Title block */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
