@@ -7,22 +7,19 @@ export async function submitPassword(formData: FormData) {
   const entered = formData.get('password') as string
   const correct = process.env.BUSTER_ARCHIVE_PASSWORD
 
-  if (!correct) {
-    throw new Error('BUSTER_ARCHIVE_PASSWORD environment variable is not set')
+  // Env var not set → treat as wrong password rather than crashing
+  if (!correct || entered !== correct) {
+    redirect('/buster?error=1')
   }
 
-  if (entered === correct) {
-    const store = await cookies()
-    store.set('buster_auth', 'granted', {
-      httpOnly: true,
-      sameSite: 'strict',
-      path: '/',
-      maxAge: 60 * 60 * 24 * 7, // 7 days
-    })
-    redirect('/buster/archive')
-  }
-
-  redirect('/buster?error=1')
+  const store = await cookies()
+  store.set('buster_auth', 'granted', {
+    httpOnly: true,
+    sameSite: 'lax',   // 'strict' can block mobile Safari on redirect
+    path: '/',
+    maxAge: 60 * 60 * 24 * 7,
+  })
+  redirect('/buster/archive')
 }
 
 export async function logout() {
