@@ -131,6 +131,7 @@ export default function LandingPage() {
               fontFamily: 'var(--font-body)',
               fontSize: '1.025rem',
               fontWeight: 400,
+              fontStyle: 'italic',
               lineHeight: 1.75,
               color: 'var(--text)',
               display: 'flex',
@@ -151,7 +152,7 @@ export default function LandingPage() {
               It&rsquo;s a city where people crawl all over each other to live.
             </p>
             <p style={{ margin: 0 }}>
-              A city of imperious glass towers and sewers choked with refuse. Of abandoned psychiatric hospitals sitting dark, the doors chained, while the alleys fill with shivering ghosts.
+              A city of imperious glass towers and sewers choked with refuse. Of abandoned psychiatric hospitals sitting dark, the doors chained shut, while the alleys fill with shivering ghosts.
             </p>
             <p style={{ margin: 0 }}>
               A city of Maseratis and volleyball beaches and cruise ships bigger than the town you grew up in.
