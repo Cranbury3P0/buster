@@ -52,12 +52,13 @@ export default function PasswordGate({ error }: Props) {
           <h2
             style={{
               fontFamily: 'var(--font-display)',
-              fontSize: 'clamp(1.4rem, 5vw, 1.75rem)',
+              fontSize: 'clamp(1.1rem, 3.5vw, 1.5rem)',
               fontWeight: 400,
               color: 'var(--text)',
               lineHeight: 1.05,
               letterSpacing: '-0.02em',
               margin: 0,
+              whiteSpace: 'nowrap',
             }}
           >
             BUSTER FREQUENCY PROJECT
