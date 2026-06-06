@@ -155,7 +155,7 @@ export default function LandingPage() {
               A city of imperious glass towers and sewers choked with refuse. Of abandoned psychiatric hospitals sitting dark, the doors chained shut, while the alleys fill with shivering ghosts.
             </p>
             <p style={{ margin: 0 }}>
-              A city of Maseratis and volleyball beaches and cruise ships bigger than the town you grew up in.
+              A city of Maseratis and volleyball beaches and cruise ships bigger than the town I grew up in.
             </p>
             <p style={{ margin: 0 }}>
               It&rsquo;s beautiful. People love it.
