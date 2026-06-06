@@ -9,7 +9,7 @@ export async function submitPassword(formData: FormData) {
 
   // Env var not set → treat as wrong password rather than crashing
   if (!correct || entered !== correct) {
-    redirect('/buster?error=1')
+    redirect('/buster/archive?error=1')
   }
 
   const store = await cookies()

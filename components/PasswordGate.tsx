@@ -10,35 +10,49 @@ export default function PasswordGate({ error }: Props) {
   return (
     <div
       style={{
-        minHeight: '100vh',
+        position: 'fixed',
+        inset: 0,
+        zIndex: 100,
         display: 'flex',
-        flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        padding: '2rem',
-        background: 'var(--bg)',
+        padding: '1.5rem',
+        backdropFilter: 'blur(18px)',
+        WebkitBackdropFilter: 'blur(18px)',
+        backgroundColor: 'rgba(250, 250, 250, 0.35)',
       }}
     >
-      <div style={{ width: '100%', maxWidth: '400px' }}>
-
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.3rem', marginBottom: '2.5rem' }}>
+      {/* White card */}
+      <div
+        style={{
+          width: '100%',
+          maxWidth: '380px',
+          background: '#ffffff',
+          borderRadius: '4px',
+          padding: '2.5rem 2.5rem 2rem',
+          boxShadow: '0 2px 40px rgba(0,0,0,0.10), 0 1px 6px rgba(0,0,0,0.06)',
+        }}
+      >
+        {/* Eyebrow + title */}
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem', marginBottom: '2rem' }}>
           <p
             style={{
               fontFamily: 'var(--font-body)',
-              fontSize: '0.9rem',
-              fontWeight: 300,
+              fontSize: '0.75rem',
+              fontWeight: 400,
               color: 'var(--dim)',
               margin: 0,
-              lineHeight: 1,
+              letterSpacing: '0.06em',
+              textTransform: 'uppercase',
             }}
           >
-            Original Demos 2017–2025
+            Private Archive
           </p>
 
-          <h1
+          <h2
             style={{
               fontFamily: 'var(--font-display)',
-              fontSize: 'clamp(1.9rem, 6vw, 2.75rem)',
+              fontSize: 'clamp(1.4rem, 5vw, 1.75rem)',
               fontWeight: 400,
               color: 'var(--text)',
               lineHeight: 1.05,
@@ -47,23 +61,26 @@ export default function PasswordGate({ error }: Props) {
             }}
           >
             BUSTER FREQUENCY PROJECT
-          </h1>
+          </h2>
         </div>
 
-        <div style={{ height: '1px', background: 'var(--border)', marginBottom: '2.5rem' }} />
+        {/* Divider */}
+        <div style={{ height: '1px', background: 'var(--border)', marginBottom: '1.75rem' }} />
 
+        {/* Form */}
         <form action={submitPassword} style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
           <input
             type="password"
             name="password"
             autoComplete="current-password"
             placeholder="Access code"
+            autoFocus
             required
             style={{
               width: '100%',
               background: 'transparent',
               border: 'none',
-              borderBottom: '1px solid var(--border)',
+              borderBottom: `1px solid ${error ? '#c0392b' : 'var(--border)'}`,
               color: 'var(--text)',
               padding: '0.6rem 0',
               fontFamily: 'var(--font-body)',
@@ -73,8 +90,15 @@ export default function PasswordGate({ error }: Props) {
           />
 
           {error && (
-            <p style={{ fontFamily: 'var(--font-body)', fontSize: '0.875rem', color: 'var(--secondary)' }}>
-              Not recognized.
+            <p
+              style={{
+                fontFamily: 'var(--font-body)',
+                fontSize: '0.8rem',
+                color: '#c0392b',
+                margin: 0,
+              }}
+            >
+              Incorrect access code.
             </p>
           )}
 
@@ -97,17 +121,18 @@ export default function PasswordGate({ error }: Props) {
           </div>
         </form>
 
+        {/* Footer note */}
         <p
           style={{
-            marginTop: '5rem',
+            marginTop: '2.5rem',
             fontFamily: 'var(--font-body)',
-            fontSize: '0.8rem',
+            fontSize: '0.75rem',
             color: 'var(--faint)',
+            margin: '2.5rem 0 0',
           }}
         >
-          Private. Not for distribution.
+          Not for distribution.
         </p>
-
       </div>
     </div>
   )

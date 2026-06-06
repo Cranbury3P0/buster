@@ -1,7 +1,16 @@
 import { posts } from '@/lib/posts'
+import { isAuthenticated } from '@/lib/auth'
 import ArchiveGrid from '@/components/ArchiveGrid'
+import PasswordGate from '@/components/PasswordGate'
 
-export default async function ArchivePage() {
+interface Props {
+  searchParams: Promise<{ error?: string }>
+}
+
+export default async function ArchivePage({ searchParams }: Props) {
+  const authed = await isAuthenticated()
+  const params = await searchParams
+  const hasError = params.error === '1'
 
   return (
     <div style={{ background: 'var(--bg)', minHeight: '100vh' }}>
@@ -17,8 +26,6 @@ export default async function ArchivePage() {
           }
         `}</style>
         <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
-
-          {/* Title block */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
             <p
               className="archive-eyebrow"
@@ -63,9 +70,6 @@ export default async function ArchivePage() {
               A man with no future reclaims his past through art and violence.
             </p>
           </div>
-
-
-
         </div>
       </header>
 
@@ -86,6 +90,8 @@ export default async function ArchivePage() {
           </p>
         </div>
       </footer>
+
+      {!authed && <PasswordGate error={hasError} />}
 
     </div>
   )
