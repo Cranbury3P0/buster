@@ -163,6 +163,46 @@ export default function LandingPage() {
             </p>
           </div>
 
+          <div style={{ height: '1px', background: 'var(--border)', margin: '2.5rem 0' }} />
+
+          <div
+            style={{
+              border: '1px solid var(--border)',
+              borderRadius: '4px',
+              padding: '1.5rem 1.75rem',
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '0.85rem',
+            }}
+          >
+            <p
+              style={{
+                fontFamily: 'var(--font-body)',
+                fontSize: '0.85rem',
+                fontWeight: 400,
+                fontStyle: 'italic',
+                lineHeight: 1.7,
+                color: 'var(--dim)',
+                margin: 0,
+              }}
+            >
+              The innards of the site are not yet assembled in a way that befits an audience. In the meantime, please check out the scaffolding and the protective tarps riffling in the wind.
+            </p>
+            <p
+              style={{
+                fontFamily: 'var(--font-body)',
+                fontSize: '0.85rem',
+                fontWeight: 400,
+                fontStyle: 'italic',
+                lineHeight: 1.7,
+                color: 'var(--dim)',
+                margin: 0,
+              }}
+            >
+              Check back soon.
+            </p>
+          </div>
+
         </div>
 
       </main>
