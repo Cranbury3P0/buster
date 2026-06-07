@@ -1,6 +1,7 @@
 import Link from 'next/link'
 
 const links = [
+  { href: '/buster/landing', label: 'Home' },
   { href: '/about', label: 'About' },
   { href: '/buster/archive', label: 'Archive' },
   { href: '/attribution', label: 'Attribution' },
