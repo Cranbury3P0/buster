@@ -142,19 +142,19 @@ export default function LandingPage() {
               I understand that the area that I am about to enter is a work of fiction.
             </p>
             <p style={{ margin: 0 }}>
-              It is the story of a man with no future reclaiming his past through art and violence. It is set in a city that is parallel in time to the one that I am living in now but the rhythm is slightly off. It&rsquo;s out of sequence, blurring, tipping off the edge of the coffee table.
+              It is the story of a man with no future reclaiming his past through art and violence.
             </p>
             <p style={{ margin: 0 }}>
-              The city is illuminated by the light that I remember it by. Too bright for comfort in the morning; too sallow in the afternoon.
+              I confirm that the city depicted in the pages and screens that follow is illuminated by the light that I remember it by. Too bright for comfort in the morning; too sallow in the afternoon.
             </p>
             <p style={{ margin: 0 }}>
               It&rsquo;s a city where people crawl all over each other to live.
             </p>
             <p style={{ margin: 0 }}>
-              A city of imperious glass towers and sewers choked with refuse. Of abandoned psychiatric hospitals sitting dark, the doors chained shut, while the alleys fill with shivering ghosts.
+              A city of imperious glass towers and sewers choked with refuse. Of abandoned psychiatric hospitals sitting dark, their doors chained shut, while the alleys fill with shivering ghosts.
             </p>
             <p style={{ margin: 0 }}>
-              A city of Maseratis and volleyball beaches and cruise ships bigger than the town I grew up in.
+              Maseratis and volleyball beaches and cruise ships bigger than the town I grew up in.
             </p>
             <p style={{ margin: 0 }}>
               It&rsquo;s beautiful. People love it.
