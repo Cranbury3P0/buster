@@ -29,7 +29,7 @@ export default function PasswordGate({ error }: Props) {
           maxWidth: '380px',
           background: '#ffffff',
           borderRadius: '4px',
-          padding: '2.5rem 2.5rem 2rem',
+          padding: 'clamp(1.5rem, 5vw, 2.5rem)',
           boxShadow: '0 2px 40px rgba(0,0,0,0.10), 0 1px 6px rgba(0,0,0,0.06)',
         }}
       >
@@ -55,10 +55,9 @@ export default function PasswordGate({ error }: Props) {
               fontSize: 'clamp(1.1rem, 3.5vw, 1.5rem)',
               fontWeight: 400,
               color: 'var(--text)',
-              lineHeight: 1.05,
+              lineHeight: 1.1,
               letterSpacing: '-0.02em',
               margin: 0,
-              whiteSpace: 'nowrap',
             }}
           >
             BUSTER FREQUENCY PROJECT

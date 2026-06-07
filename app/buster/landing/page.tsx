@@ -31,13 +31,12 @@ export default function LandingPage() {
             <h1
               style={{
                 fontFamily: 'var(--font-display)',
-                fontSize: 'clamp(1.6rem, 4.2vw, 3.25rem)',
+                fontSize: 'clamp(1.5rem, 4.2vw, 3.25rem)',
                 fontWeight: 400,
                 color: 'var(--text)',
                 margin: 0,
-                lineHeight: 1,
+                lineHeight: 1.05,
                 letterSpacing: '-0.02em',
-                whiteSpace: 'nowrap',
               }}
             >
               BUSTER FREQUENCY PROJECT
