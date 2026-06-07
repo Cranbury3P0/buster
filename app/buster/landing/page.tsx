@@ -178,7 +178,7 @@ export default function LandingPage() {
             <p
               style={{
                 fontFamily: 'var(--font-body)',
-                fontSize: '0.85rem',
+                fontSize: 'calc(0.85rem + 2px)',
                 fontWeight: 400,
                 fontStyle: 'italic',
                 lineHeight: 1.7,
@@ -191,7 +191,7 @@ export default function LandingPage() {
             <p
               style={{
                 fontFamily: 'var(--font-body)',
-                fontSize: '0.85rem',
+                fontSize: 'calc(0.85rem + 2px)',
                 fontWeight: 400,
                 fontStyle: 'italic',
                 lineHeight: 1.7,
@@ -199,7 +199,7 @@ export default function LandingPage() {
                 margin: 0,
               }}
             >
-              Check back soon.
+              Come back soon.
             </p>
           </div>
 
