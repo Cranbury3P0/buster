@@ -108,7 +108,7 @@ export default function LandingPage() {
         </figure>
 
         {/* Entry text */}
-        <div style={{ marginTop: '5rem', maxWidth: '720px', margin: '5rem auto 0' }}>
+        <div style={{ marginTop: '2.5rem', maxWidth: '720px', margin: '2.5rem auto 0' }}>
 
           <div style={{ height: '1px', background: 'var(--border)', marginBottom: '2rem' }} />
 
