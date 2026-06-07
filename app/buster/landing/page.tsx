@@ -59,7 +59,7 @@ export default function LandingPage() {
       </header>
 
       {/* Main */}
-      <main style={{ maxWidth: '860px', margin: '0 auto', padding: '5rem 1.5rem 7rem' }}>
+      <main style={{ maxWidth: '860px', margin: '0 auto', padding: '2.5rem 1.5rem 7rem' }}>
 
         {/* Image block */}
         <figure style={{ margin: 0 }}>
