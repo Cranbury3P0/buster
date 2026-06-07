@@ -199,7 +199,7 @@ export default function LandingPage() {
                 margin: 0,
               }}
             >
-              Come back soon.
+              Please return later.
             </p>
           </div>
 
