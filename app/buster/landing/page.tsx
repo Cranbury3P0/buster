@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import type { Metadata } from 'next'
-import WaiverCheckbox from '@/components/WaiverCheckbox'
 
 export const metadata: Metadata = {
   title: 'The Buster Frequency Project',
@@ -163,10 +162,6 @@ export default function LandingPage() {
               The stars wink out behind the seaplanes as they glide into the bay at dusk.
             </p>
           </div>
-
-          <div style={{ height: '1px', background: 'var(--border)', margin: '2.5rem 0' }} />
-
-          <WaiverCheckbox />
 
         </div>
 
