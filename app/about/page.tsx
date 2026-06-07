@@ -49,7 +49,7 @@ export default function AboutPage() {
           </p>
 
           <p style={{ margin: 0 }}>
-            I was looking for a place to put the things that interested me most at the time: writing, music, and the strange habit of spending hours staring into the lives of strangers online.
+            I was looking for a place to put the things that interested me most at the time: writing, music, and the never-so-strange habit of spending hours staring into the lives of strangers online.
           </p>
 
           <p style={{ margin: 0 }}>
