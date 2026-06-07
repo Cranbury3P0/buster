@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Archivo_Black, Radio_Canada } from 'next/font/google'
 import './globals.css'
+import NavBar from '@/components/NavBar'
 
 const archivoBlack = Archivo_Black({
   subsets: ['latin'],
@@ -35,6 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           minHeight: '100vh',
         }}
       >
+        <NavBar />
         {children}
       </body>
     </html>

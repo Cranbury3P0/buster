@@ -53,11 +53,15 @@ export default function AttributionPage() {
           }}
         >
           <p style={{ margin: 0 }}>
-            The Buster Frequency Project incorporates visual material gathered from artists, photographers, musicians, designers, archives, publications, and other cultural sources encountered during the development of the work.
+            The Buster Frequency Project incorporates visual material gathered from artists, photographers, sculptors, designers, archives, publications, and other cultural sources encountered during the writing and development of the work.
           </p>
 
           <p style={{ margin: 0 }}>
-            Part of the conceit of the project is that its protagonist, Buster Frequency, uses Instagram as a kind of trawling mechanism to recover a life he can no longer fully remember. Certain memories return only when he encounters works of art capable of disturbing the surface of the present. An image, a song, a painting, a photograph, a fragment of design, a performance. These become catalysts. They trigger recollections, associations, and stories.
+            Part of the conceit of the project is that its protagonist, Buster Frequency, uses Instagram as a kind of trawling mechanism to recover a life he can no longer fully remember.
+          </p>
+
+          <p style={{ margin: 0 }}>
+            Certain memories return only when he encounters works of art capable of disturbing the surface of the present. An image, a painting, a photograph, a fragment of design emerge and instinctively inspire the text. These become catalysts. They trigger recollections and stories.
           </p>
 
           <p style={{ margin: 0 }}>
@@ -65,11 +69,11 @@ export default function AttributionPage() {
           </p>
 
           <p style={{ margin: 0 }}>
-            This project would not exist without the artists whose work appears throughout it. One of its aims is to demonstrate how deeply literature remains indebted to the visual arts, music, photography, film, and design as sources of inspiration, insight, and emotional knowledge.
+            This project would not exist without the artists whose work appears throughout it. One of its aims is to demonstrate how deeply literature remains indebted to the visual arts, music, photography, film, and design as sources of inspiration.
           </p>
 
           <p style={{ margin: 0 }}>
-            Whenever possible, creators are identified, credited, and linked directly to their websites, portfolios, publications, or social media accounts.
+            Whenever possible, creators are identified and credited. Links are provided directly to their websites, portfolios, publications, or social media accounts.
           </p>
 
           <p style={{ margin: 0 }}>
