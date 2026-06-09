@@ -3,7 +3,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://busterfrequency.com
 export const metadata = {
   title: 'Land and Place Acknowledgement — The Buster Frequency Project',
   description:
-    'The Buster Frequency Project takes place on the unceded territories of the xʷməθkʷəy̓əm (Musqueam), Sḵwx̱wú7mesh Úxwumixw (Squamish Nation), and səlilwətaɬ (Tsleil-Waututh Nation).',
+    'The Buster Frequency Project takes place on the unceded territories of the xʷməθkʷəy̓əm (Musqueam), Sḵwx̱wú7mesh Úxwumixw (Squamish Nation), and səlilwətaɬ (Tsleil-Waututh Nation). Its stories are set in Chinatown, Paueru Gai, and the Downtown Eastside.',
   alternates: { canonical: `${siteUrl}/acknowledgement` },
   openGraph: {
     title: 'Land and Place Acknowledgement — The Buster Frequency Project',
@@ -96,34 +96,50 @@ export default function AcknowledgementPage() {
             <span style={nativeFontStyle}>xʷməθkʷəy̓əm</span> (Musqueam),{' '}
             <span style={nativeFontStyle}>Sḵwx̱wú7mesh</span> Úxwumixw (Squamish Nation), and{' '}
             <span style={nativeFontStyle}>səlilwətaɬ</span> (Tsleil-Waututh Nation). Unceded
-            means what the word says: this land was never sold, never surrendered, never signed
-            over to the Crown. The people who belong to it were here long before the city that
-            sits on top of them, and they are still here.
+            means what the word says: this land was stolen, never surrendered, never signed over
+            to the Crown. The people who belong to it were here long before the city that sits on
+            top of them, and they are still here.
           </p>
 
           <p style={{ margin: 0 }}>
-            I live and write here too, a settler. The taking that cleared the ground for this
-            city is not finished, and I&rsquo;m one of the people it was meant to benefit.
+            The book and its story are told within the regions of the city&rsquo;s famous and
+            historical east side.
           </p>
 
           <p style={{ margin: 0 }}>
-            The book barely leaves a few square blocks of that city. Chinatown, built and held
-            by people the rest of Canada spent decades trying to tax out, exclude, and erase, and
-            standing anyway. Powell Street, Paueru Gai, the heart of Japanese Canadian Vancouver
-            until 1942, when the government uprooted its residents, sold everything they owned,
-            and made them live off the proceeds in the internment camps. And the Downtown Eastside
-            as it is now, which outsiders read as nothing but crisis, and the people who live
-            there know as a neighbourhood.
+            Chinatown, built by Chinese Canadians who endured the Head Tax, the Exclusion Act,
+            and decades of discrimination, created a community that gives Vancouver so much of its
+            moodiness and culture.
+          </p>
+
+          <p style={{ margin: 0 }}>
+            Paueru Gai, Vancouver&rsquo;s historic Japantown and the heart of Japanese Canadian
+            life in the city, where families built businesses, community institutions, and the
+            legendary Vancouver Asahi baseball club, until 1942, when residents were forcibly
+            uprooted, their property seized and sold, and entire communities scattered across the
+            country.
+          </p>
+
+          <p style={{ margin: 0 }}>
+            The Downtown Eastside, where I lived and worked during some of the years described in
+            this project. The neighbourhood is often portrayed by politicians, developers, and the
+            media as a permanent emergency, but anyone who has spent time there knows that
+            description is incomplete. The DTES has its challenges, but it is also a place of
+            friendship, ingenuity, activism, art, and community, and it continues to teach the
+            rest of the city and country lessons that many of us are still struggling to learn.
           </p>
 
           <p style={{ margin: 0 }}>
             A novel this concerned with stolen things owes its locations more than a footnote.
-            These streets carry a long record of land taken, homes seized, and neighbourhoods
-            sold off. The story borrows their weight, and I have tried to be honest about that.
-            Honesty isn&rsquo;t where the debt ends. The Musqueam, Squamish, and Tsleil-Waututh
-            hold title and authority here that no acknowledgement grants and none can revoke, and
-            the work is to live as if that&rsquo;s true, which is slower and harder than writing
-            it down.
+            These streets carry a long record of dispossession and theft. The story borrows some
+            of that thematically, and I have tried to be honest about that.
+          </p>
+
+          <p style={{ margin: 0 }}>
+            Simply put: The Musqueam, Squamish, and Tsleil-Waututh hold title and authority here
+            that no acknowledgement grants and none can revoke, and while that is true, we&rsquo;re
+            wise to recognize our other neighbours whose resilience helps to define this area and
+            how we live.
           </p>
         </div>
 
