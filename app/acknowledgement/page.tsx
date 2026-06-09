@@ -196,8 +196,9 @@ export default function AcknowledgementPage() {
               <span style={nativeFontStyle}>xʷməθkʷəy̓əm</span> (Musqueam),{' '}
               <span style={nativeFontStyle}>Sḵwx̱wú7mesh</span> Úxwumixw (Squamish Nation), and{' '}
               <span style={nativeFontStyle}>səlilwətaɬ</span> (Tsleil-Waututh Nation). These
-              nations have lived on and cared for these lands and waters since time immemorial and
-              continue to shape the cultural, political, and social life of the region today.
+              nations have lived on and cared for these lands and waters since before time was even
+              time and continue to shape the cultural, political, and social life of the region
+              today.
             </p>
 
             <p style={{ margin: 0, color: 'var(--dim)' }}>The nations, in their own words:</p>
