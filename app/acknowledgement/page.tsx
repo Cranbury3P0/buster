@@ -95,10 +95,10 @@ export default function AcknowledgementPage() {
             The Buster Frequency Project takes place on the unceded territories of the{' '}
             <span style={nativeFontStyle}>xʷməθkʷəy̓əm</span> (Musqueam),{' '}
             <span style={nativeFontStyle}>Sḵwx̱wú7mesh</span> Úxwumixw (Squamish Nation), and{' '}
-            <span style={nativeFontStyle}>səlilwətaɬ</span> (Tsleil-Waututh Nation). These
-            nations have lived on and cared for these lands and waters since before time was even
-            time and continue to shape the cultural, political, and social life of the region
-            today.
+            <span style={nativeFontStyle}>səlilwətaɬ</span> (Tsleil-Waututh Nation). Unceded
+            means what the word says: this land was stolen, never surrendered, never signed over
+            to the Crown. The people who belong to these lands were here long before the city was
+            built around them, and they are still here.
           </p>
 
           <p style={{ margin: 0 }}>
