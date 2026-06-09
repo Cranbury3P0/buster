@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <style>
+    .b { fill: #1d1d1d; }
+    @media (prefers-color-scheme: dark) {
+      .b { fill: #fafafa; }
+    }
+  </style>
+  <text
+    class="b"
+    x="16"
+    y="27"
+    text-anchor="middle"
+    font-family="'Arial Black', 'Helvetica Neue', sans-serif"
+    font-weight="900"
+    font-size="28"
+  >B</text>
+</svg>
