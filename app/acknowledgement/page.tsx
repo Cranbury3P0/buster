@@ -97,8 +97,8 @@ export default function AcknowledgementPage() {
             <span style={nativeFontStyle}>Sḵwx̱wú7mesh</span> Úxwumixw (Squamish Nation), and{' '}
             <span style={nativeFontStyle}>səlilwətaɬ</span> (Tsleil-Waututh Nation). Unceded
             means what the word says: this land was stolen, never surrendered, never signed over
-            to the Crown. The people who belong to it were here long before the city that sits on
-            top of them, and they are still here.
+            to the Crown. The people who belong to these lands were here long before the city was
+            built around them, and they are still here.
           </p>
 
           <p style={{ margin: 0 }}>
@@ -138,8 +138,8 @@ export default function AcknowledgementPage() {
           <p style={{ margin: 0 }}>
             Simply put: The Musqueam, Squamish, and Tsleil-Waututh hold title and authority here
             that no acknowledgement grants and none can revoke, and while that is true, we&rsquo;re
-            wise to recognize our other neighbours whose resilience helps to define this area and
-            how we live.
+            wise to recognize the people and communities whose resilience helps define this area
+            and shape its character.
           </p>
         </div>
 
