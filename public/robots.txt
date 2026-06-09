@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /buster/landing
+Allow: /about
+Allow: /contact
+Allow: /attribution
+Disallow: /buster/archive
+Disallow: /buster/archive/
+
+Sitemap: https://busterfrequency.com/sitemap.xml

@@ -1,6 +1,22 @@
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://busterfrequency.com'
+
 export const metadata = {
   title: 'Contact — The Buster Frequency Project',
-  robots: { index: false, follow: false },
+  description:
+    'Get in touch with Sean Cranbury, Vancouver-based writer and creator of The Buster Frequency Project. Reach out at hello@seancranbury.com.',
+  alternates: { canonical: `${siteUrl}/contact` },
+  openGraph: {
+    title: 'Contact — The Buster Frequency Project',
+    description:
+      'Reach Sean Cranbury, writer of The Buster Frequency Project, at hello@seancranbury.com.',
+    url: `${siteUrl}/contact`,
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Contact — The Buster Frequency Project',
+    description: 'Reach Sean Cranbury at hello@seancranbury.com.',
+  },
 }
 
 export default function ContactPage() {
@@ -65,6 +81,23 @@ export default function ContactPage() {
               hello@seancranbury.com
             </a>
             .
+          </p>
+
+          <p style={{ margin: 0 }}>
+            You can also follow the project by{' '}
+            <a
+              href="https://app.cakemail.com/#/public/f/b3aeb54242044fd28c3f8f7b0bf32887bba15f1247bc422f4d93187c1b90cb682ee0915ea107273b41d261fec23634975b52a3054339656c"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: 'inherit',
+                textDecoration: 'none',
+                borderBottom: '1px solid var(--border)',
+              }}
+            >
+              joining the mailing list
+            </a>
+            . Transmissions arrive when they arrive.
           </p>
 
           <p style={{ margin: 0 }}>

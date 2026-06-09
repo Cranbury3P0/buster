@@ -1,6 +1,23 @@
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://busterfrequency.com'
+
 export const metadata = {
   title: 'About — The Buster Frequency Project',
-  robots: { index: false, follow: false },
+  description:
+    'About The Buster Frequency Project — the origin story of Buster Frequency, a bass player and loner from the East Vancouver music scene, and the Vancouver noir fiction written by Sean Cranbury since 2017.',
+  alternates: { canonical: `${siteUrl}/about` },
+  openGraph: {
+    title: 'About — The Buster Frequency Project',
+    description:
+      'Buster Frequency: bass player, loner, misanthrope. A man with no future reclaiming his past through art and violence. A fiction by Sean Cranbury rooted in East Vancouver.',
+    url: `${siteUrl}/about`,
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'About — The Buster Frequency Project',
+    description:
+      'The origin story of Buster Frequency and the Vancouver noir fiction by Sean Cranbury.',
+  },
 }
 
 export default function AboutPage() {

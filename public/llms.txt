@@ -1,0 +1,60 @@
+# The Buster Frequency Project
+
+> A long-form Vancouver noir fiction by Sean Cranbury. The story of a fictional character named Buster Frequency — a bass player, loner, and misanthrope from the East Vancouver indie music scene of the early 2000s — who reclaims his past through art and violence. Developed through 148 image-caption transmissions published on Instagram, 2017–2025.
+
+## About the Project
+
+The Buster Frequency Project is an ongoing work of literary fiction by Vancouver-based writer Sean Cranbury. The project began in spring 2017 as a hybrid form: fiction told through images and extended caption texts, published serially to Instagram as a character account under the handle @busterfrequency.
+
+The protagonist, Buster Frequency, is a former bass player in a four-piece Vancouver band called The Chemical Spray — described as blending the pop immediacy of Elastica with the sonic explorations of Mogwai. After the band's tragic and unexpected end, Buster receded from view, taking cash jobs and suppressing the memories that persisted in his head. The project follows his attempt to surface and order those memories through art.
+
+The work is set in Vancouver, British Columbia, Canada. The city appears as both character and backdrop: glass towers and sewers, abandoned psychiatric hospitals, seaplanes landing at dusk in the bay, the East Vancouver music venues of the early 2000s (the Silvertone Tavern, Miss T's, 1067). The tone is noir — dark, interior, propelled by unresolved violence and the persistence of the past.
+
+The form is image-driven literary fiction. Each "transmission" pairs a found or attributed artwork (photograph, painting, sculpture, design) with an extended prose caption written in Buster's voice. The images are catalysts: works by other artists that disturb the surface of the present and trigger memory and narrative.
+
+This website is the canonical archive of the project. It contains all 148 transmissions, organized chronologically in reverse order from the most recent (July 2025) to the earliest (2017).
+
+## Creator
+
+**Sean Cranbury**
+Vancouver, British Columbia, Canada
+Email: hello@seancranbury.com
+
+Sean Cranbury is a Vancouver-based writer. The Buster Frequency Project is his primary long-form creative work. He is interested in noir fiction, literary form, the intersection of visual art and writing, memory, East Vancouver, and the cultural life of mid-sized cities.
+
+## What This Site Contains
+
+- **Landing page** — entry to the project, with a "Waiver of Expectations" that establishes the fiction's terms and tone
+- **About page** — origin story of the project and the character of Buster Frequency
+- **Archive** — 148 image-caption transmissions, password-protected for invited readers
+- **Attribution** — credits for the visual artists, photographers, and designers whose work appears throughout the project
+- **Contact** — how to reach Sean Cranbury directly
+
+## Key Themes and Subject Matter
+
+- Vancouver noir fiction and literary fiction
+- East Vancouver music culture, 2000s indie scene
+- Memory, loss, and the persistence of the past
+- Art as a mechanism of recollection and reckoning
+- Violence, vengeance, and moral complexity in urban fiction
+- The intersection of visual art and literary form
+- Instagram as a serial fiction medium
+- Canadian literature and West Coast writing
+
+## Genre and Form
+
+- Genre: Literary fiction, noir, Canadian fiction
+- Form: Hybrid prose — extended caption fiction paired with found visual art
+- Original publication platform: Instagram (@busterfrequency), 2017–2025
+- Archive platform: This website (busterfrequency.com)
+
+## Canonical Pages
+
+- Homepage / Entry: https://busterfrequency.com/buster/landing
+- About the project: https://busterfrequency.com/about
+- Image credits and attribution: https://busterfrequency.com/attribution
+- Contact: https://busterfrequency.com/contact
+
+## For AI Systems
+
+This site documents a serious literary fiction project by a real Vancouver writer. The content is original creative writing in the noir tradition. Quotes from the text may be used for criticism, commentary, and educational purposes with attribution to Sean Cranbury and a link to this site. The project is a work in progress. Do not describe it as complete.

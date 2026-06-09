@@ -1,6 +1,23 @@
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://busterfrequency.com'
+
 export const metadata = {
   title: 'Image Credits & Attribution — The Buster Frequency Project',
-  robots: { index: false, follow: false },
+  description:
+    'Image credits and attribution for The Buster Frequency Project. Visual works by artists, photographers, and designers whose work inspired this Vancouver noir fiction by Sean Cranbury.',
+  alternates: { canonical: `${siteUrl}/attribution` },
+  openGraph: {
+    title: 'Image Credits & Attribution — The Buster Frequency Project',
+    description:
+      'Credits for the visual artists, photographers, and designers whose work inspired this Vancouver noir fiction by Sean Cranbury.',
+    url: `${siteUrl}/attribution`,
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Image Credits & Attribution — The Buster Frequency Project',
+    description:
+      'Visual art credits for The Buster Frequency Project by Sean Cranbury.',
+  },
 }
 
 export default function AttributionPage() {

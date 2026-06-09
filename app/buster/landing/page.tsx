@@ -1,15 +1,60 @@
 import Image from 'next/image'
 import type { Metadata } from 'next'
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://busterfrequency.com'
+
 export const metadata: Metadata = {
-  title: 'The Buster Frequency Project',
-  description: 'A private archive of original demos and outtakes, 2017–2025.',
-  robots: { index: false, follow: false },
+  title: 'The Buster Frequency Project — A Vancouver Noir Fiction by Sean Cranbury',
+  description:
+    'Enter the Buster Frequency Project — a Vancouver noir fiction by Sean Cranbury. The story of a man with no future reclaiming his past through art and violence. 148 image-caption transmissions, 2017–2025.',
+  alternates: {
+    canonical: `${siteUrl}/buster/landing`,
+  },
+  openGraph: {
+    title: 'The Buster Frequency Project — A Vancouver Noir Fiction by Sean Cranbury',
+    description:
+      'A man with no future reclaiming his past through art and violence. Vancouver noir fiction by Sean Cranbury, told through image and text, 2017–2025.',
+    url: `${siteUrl}/buster/landing`,
+    type: 'website',
+    images: [
+      {
+        url: '/IDRIS_KHAN_ROLAND_BARTHES.png',
+        width: 1704,
+        height: 1382,
+        alt: 'Idris Khan, Every page of Roland Barthes Camera Lucida — opening image for The Buster Frequency Project',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'The Buster Frequency Project — Vancouver Noir Fiction',
+    description:
+      'A man with no future reclaiming his past through art and violence. A fiction by Sean Cranbury, Vancouver.',
+    images: ['/IDRIS_KHAN_ROLAND_BARTHES.png'],
+  },
+}
+
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': `${siteUrl}/buster/landing#webpage`,
+  url: `${siteUrl}/buster/landing`,
+  name: 'The Buster Frequency Project — A Vancouver Noir Fiction by Sean Cranbury',
+  description:
+    'Entry point to The Buster Frequency Project — a long-form Vancouver noir fiction by Sean Cranbury. The fictional character Buster Frequency: bass player, loner, misanthrope from the East Vancouver music scene, on a path of art and vengeance.',
+  isPartOf: { '@id': `${siteUrl}/#website` },
+  about: { '@id': `${siteUrl}/#creativeWork` },
+  author: { '@id': `${siteUrl}/#person` },
+  inLanguage: 'en-CA',
 }
 
 export default function LandingPage() {
   return (
     <div style={{ background: 'var(--bg)', minHeight: '100vh' }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+      />
 
       {/* Header */}
       <header style={{ borderBottom: '1px solid var(--border)', padding: '2.5rem 1.5rem 2rem' }}>
@@ -164,6 +209,32 @@ export default function LandingPage() {
           </div>
 
           <div style={{ height: '1px', background: 'var(--border)', margin: '2.5rem 0' }} />
+
+          <p
+            style={{
+              fontFamily: 'var(--font-body)',
+              fontSize: '0.9rem',
+              fontWeight: 400,
+              lineHeight: 1.75,
+              color: 'var(--secondary)',
+              margin: '0 0 2rem',
+            }}
+          >
+            Follow the project by{' '}
+            <a
+              href="https://app.cakemail.com/#/public/f/b3aeb54242044fd28c3f8f7b0bf32887bba15f1247bc422f4d93187c1b90cb682ee0915ea107273b41d261fec23634975b52a3054339656c"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: 'inherit',
+                textDecoration: 'none',
+                borderBottom: '1px solid var(--border)',
+              }}
+            >
+              joining the mailing list
+            </a>
+            .
+          </p>
 
           <div
             style={{
